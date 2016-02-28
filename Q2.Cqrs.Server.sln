@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50978A92-C7B2-47D0-8D28-93DF248D15CC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E7E095E-9868-456F-8854-83AA90D7D77D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Q2.Cqrs.Server.Api", "src\Q2.Cqrs.Server.Api\Q2.Cqrs.Server.Api.xproj", "{467FA610-9AAC-41C7-94FD-8BF9F625A631}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Q2.Cqrs.Server.Crud", "src\Q2.Cqrs.Server.Crud\Q2.Cqrs.Server.Crud.xproj", "{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{467FA610-9AAC-41C7-94FD-8BF9F625A631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467FA610-9AAC-41C7-94FD-8BF9F625A631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467FA610-9AAC-41C7-94FD-8BF9F625A631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467FA610-9AAC-41C7-94FD-8BF9F625A631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E7E095E-9868-456F-8854-83AA90D7D77D} = {50978A92-C7B2-47D0-8D28-93DF248D15CC}
+		{467FA610-9AAC-41C7-94FD-8BF9F625A631} = {0E7E095E-9868-456F-8854-83AA90D7D77D}
+		{0C8B4EE7-1F38-4E24-8A28-5C4D73CF0F47} = {0E7E095E-9868-456F-8854-83AA90D7D77D}
+	EndGlobalSection
+EndGlobal

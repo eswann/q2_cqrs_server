@@ -1,0 +1,20 @@
+﻿{
+	"AppSettings": {
+		"LogSettings": { "EndpointUri": "http://localhost:5341" },
+		"CorsOrigins": "http://localhost:9000",
+		"SslCertificateThumbprint": "7014bd50150fe404ea0477c404af69d4bc2e26d3",
+		"ServiceSettings": {
+			"ServiceName": "Q2.Cqrs.Server.Api",
+			"EncryptionKey": "e60c8e79dac24a91a405508f7be74a97"
+		},
+		"EventStoreSettings": {
+			"UserName": "admin",
+			"Password": "admin",
+			"HostName": "localhost",
+			"Port": "1113",
+			"ProjectionPort": "2113"
+		},
+		"MongoDatabase" :  "q2_cqrs_server"
+
+	}
+}

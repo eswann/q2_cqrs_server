@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-rc1-*",
+  "description": "Q2.Cqrs.Server.Crud Class Library",
+  "authors": [ "eswann" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+	"licenseUrl": "",
+
+	"dependencies": {
+		"MongoDB.Driver": "2.2.3"
+	},
+
+
+  "frameworks": {
+    "net46": { }
+  }
+}
